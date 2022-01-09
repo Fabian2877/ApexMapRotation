@@ -1,0 +1,49 @@
+.map {
+    display: flex;
+    padding: 2rem;
+    background-color: rgba(1, 2, 2, 0.664);
+}
+
+.map__image {
+    width: 50%;
+    border-radius: 15px;
+    margin-right: 2rem;
+    box-shadow: 10px 10px 5px #0405059c;
+}
+
+
+.map__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.4rem;
+}
+
+
+.map__info__name {
+    font-weight: bold;
+    color: #FFAB4C;
+}
+
+
+.map__info__date {
+  font-weight: bold;
+  color: #95a29eb2;
+}
+
+.map__info__interval {
+    color: white;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  
+
+    .map__image {
+        width: 50%;
+
+    }
+
+
+
+}
